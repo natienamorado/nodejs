@@ -1,0 +1,9 @@
+{
+    "mongodb": {
+      "port": 3000,
+      "server": "localhost:27017",
+      "database": "customer_db_dev",
+      "user": null,
+      "password": null
+    }
+  }

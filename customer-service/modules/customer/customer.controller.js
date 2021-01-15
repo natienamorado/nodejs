@@ -5,7 +5,7 @@
     var router = express.Router();
 
     var CustomerMiddleware = require('./customer.module')().CustomerMiddleware;
-
+        
     router.post('/',
         CustomerMiddleware.addCustomer,
         function (req, res) {

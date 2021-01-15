@@ -2,7 +2,7 @@
     var mongoose = require('mongoose');
 
     var Schema = mongoose.Schema;
-
+    /*hola estoy modificando bobadas para subirlas al repo*/
     var CustomerSchema = new Schema({
         firstName: {
             type: String,
